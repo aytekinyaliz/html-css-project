@@ -9,7 +9,13 @@ body {color: darkblue;
 
 header {text-align: center}
 
+img {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
 .article-title {
+    margin-left: 15px;
 	margin-bottom: 0.5em;
 	font-weight: 700;
 }
@@ -21,6 +27,7 @@ header {text-align: center}
 article:first-child {
     background-color: antiquewhite;
 }
+
 
 .footer {
     margin-top: 4em;
