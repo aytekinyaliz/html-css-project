@@ -1,0 +1,33 @@
+a { color: maroon;}
+
+body {color: darkblue;
+      width: 60%;
+      position: absolute;
+      left: 20%;
+      right: 20%;
+    }
+
+header {text-align: center}
+
+.article-title {
+	margin-bottom: 0.5em;
+	font-weight: 700;
+}
+
+.article {
+    display: inline;
+}
+
+article:first-child {
+    background-color: antiquewhite;
+}
+
+.footer {
+    margin-top: 4em;
+    text-align: center;
+}
+
+#horizontal-list li {
+        display: inline;
+        margin: 0px 50px 0px 40px;
+	}
