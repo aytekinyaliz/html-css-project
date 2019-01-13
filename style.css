@@ -1,0 +1,19 @@
+body {
+    background-color: lightgreen;
+    text-align: justify;
+
+}
+#baslik {
+    text-align: center;
+    background-color:darkgreen;
+}
+.resim {
+width: 350px;
+}
+button {
+    background-color: aqua
+
+}
+h3 {
+
+}
