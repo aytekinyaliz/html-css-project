@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+}
+nav, article, figure{
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;   
+}
+nav{
+    float: right;
+    margin-right: 3em;
+    background-color: white;
+    padding: 0.4em;
+    -moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+    box-shadow:0 1px 1px #333333;   
+}
+#page{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 1px black
+}
+h1 {
+    font-size: 2em;
+    padding: 0.5em 0 0;
+    font-family:forte,"Myriad Pro";
+}
+h3 {
+    font-size: 1em;
+    padding: 0.5em 0 0;
+}
+.line{
+    height: 1px;
+    margin: 40px 0px 10px;
+    background-color: plum;
+    border-bottom: 1px solid palevioletred;
+}
+figure{
+    border:3px solid #142830;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+figure img{
+    margin-left:-60px;   
+}
+article, article body{
+    background-color: lightpink;
+	margin:3em 0;
+    padding:20px;
+    height:350px;
+}
+article div.line{
+    margin: 10px 0px 10px;
+    
+}
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+}
+footer p{
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;    
+}
+article:first-child p{
+    background-color:red;
+    font-size: 80px;
+}
