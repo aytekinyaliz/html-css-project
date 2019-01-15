@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+article{
+    margin: 50px;
+}
+article :first-child{
+    color: purple;
+}
