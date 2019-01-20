@@ -1,0 +1,97 @@
+html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      flex-direction: row;
+      /* height: 100%;
+      min-height: 100%; */
+    }
+
+    .column1 {
+      flex: 4;
+    }
+
+    .column-side {
+      flex: 1;
+    }
+
+    .row {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      /* border: 1px solid red; */
+      padding: 10px 10px;
+  }
+
+    .cell {
+      flex: 1;
+      border: 1px solid black;
+      padding: 5px;
+      /* background: lime; */
+    }
+
+    .hundred-percent {
+      /* background: yellow; */
+      height: 100%;
+      min-height: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+      .wrapper {
+        flex-direction: column;
+      }
+
+      .row {
+        flex-direction: column;
+      }
+
+      .column1 {
+        flex: 0;
+      }
+
+      .hundred-percent {
+        background: blanchedalmond;
+      }
+    }
+
+
+
+
+/* Header CSS code */
+.header{
+  background-color: rgb(127, 255, 212);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.footer{
+  background-color: aquamarine;
+}

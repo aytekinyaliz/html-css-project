@@ -1,0 +1,42 @@
+@media(min-width:468px){
+    .content{
+      display:flex;
+      /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      */
+      /* align-items:flex-start;
+      flex-direction:column; */
+      flex-wrap: wrap ;
+    }
+}
+
+
+.bloks{
+  display: flex;
+  flex-wrap: wrap ;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap ;
+}
+.cell{
+  flex: 1;
+  background:#eee;
+  border: 1px solid #444;
+  padding: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.sidebar{
+  flex: 1;
+  background:#eee;
+  border: 1px solid #444;
+  padding: 15px;
+  width: 200px;
+  height: 600px;
+  align-items: stretch;
+}
