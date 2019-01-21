@@ -1,0 +1,97 @@
+
+header, main, section, article, footer, aside, nav 
+{ 
+display: block; 
+} 
+
+#banner {
+    position: relative;
+    margin: -10px;
+}
+
+.body {
+    margin: 10px;
+}
+
+.main {
+    margin: 10px;
+}
+
+#footer {
+    margin: -10px;
+    background: url(../img/footer.jpg);
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    clear: both;
+}
+
+.first {
+    float: left; 
+    width: 70%;  
+}
+
+.second {
+    float: left; 
+    width:30%; 
+    text-align: left;
+}
+
+
+.ficon{
+    width: 50px;
+}
+
+
+.section {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    width: 67%;
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: black;
+    background-color: rgb(214, 214, 214);
+    clear: both;
+}
+
+.aside {
+    width: 30%;
+    margin: 5px;
+    float: right;
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: black;
+    background-color: rgb(214, 214, 214);
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
+    
+    float: left;
+
+}
+
+.pp {
+    text-decoration: none;
+    font-size: -2em;
+    font-style: italic;
+}
+
+
+.red {
+    font-weight: bold;
+    color: brown;
+}
+
+#bold {
+    font-weight: bold; 
+}
+
+ul li:first-child {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
