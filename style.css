@@ -1,4 +1,172 @@
-body {
-	background-color: lightgreen;
-	font-size: 12px;
+body{
+    margin: 0px ;
+    padding:0px;
+    background-color: rgb(65, 228, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
+
+/*jumbotron*/
+
+.jumbotron{
+    display:flex;
+    
+}
+
+/*header*/
+.container{
+    width: 88%;
+    margin: 10px auto;
+    font-weight: bold;
+}
+header{
+    overflow: hidden;
+    background-color:#55d6aa;
+    color:black;
+}
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+
+}
+.logo{
+    border:none;
+    float: left;
+    width: 30%;
+    margin:0;
+    padding: 1em 0;
+    
+}
+
+nav{
+    float:right;
+    margin-right: 0.65em;
+  
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+nav li{
+    display: inline-block;
+    margin-left:2em;
+    padding-top:1em;
+    position: relative;
+}
+nav a{
+    color:rgb(23, 6, 43);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+nav a:hover{
+    color:#000
+}
+
+nav a::before{
+    content: '';
+    display:block;
+    height: 3px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top:0;
+}
+nav a:hover::before{
+    width:100%;
+}
+/*main*/
+.main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-grow: 2;
+    text-align: center;
+    font-display: bolder;
+    max-width: 70%;
+       
+}
+article:nth-of-type(odd){
+    background-color:#ddd;
+}
+
+
+article{
+    max-width: 25%;
+    margin:0px 
+    overflow:hidden;
+
+}
+article:first-child{
+    background-color: rgb(224, 224, 224)
+}
+.sembol{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+
+.lasercut-gifts{
+    padding:15px;
+}
+.handmade-gifts{
+    padding:15px;
+}
+.image{
+   max-width: 100%;;
+}
+/*footer*/
+footer{
+    padding:0.5em;
+    margin-top: 4em;
+    width:90%;
+    margin:0px 3%; 
+    font-weight:bolder;
+}
+
+footer p {
+	border-top: 1px solid rgb(129, 126, 126);
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*aside*/
+aside{
+    flex-grow:1;
+}
+
+.aside {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    
+    
+}
+
+.aside-img{
+    max-width:100%;
+    overflow: hidden;
+}
+.aside p{
+    margin:5px;
+}
+
+.aside h1{
+    margin:5px;
+    margin-bottom:0
+}
+
+@media screen and (max-width:500px){
+ .jumbotron {
+     display:flex;
+     flex-direction:column;
+ }   
+ .main{
+     width:100%;
+ }
+ aside{
+     width:100%
+ }
+    }
