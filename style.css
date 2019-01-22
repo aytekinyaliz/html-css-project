@@ -1,4 +1,45 @@
-body {
-	background-color: lightgreen;
-	font-size: 12px;
+body{
+    background-color: rgb(146, 199, 199);
+padding-left: 18em;
+padding-top: 4em;
+}
+#zero{
+    width: 720px;
+    margin-bottom:6em;
+}
+
+.name1{
+    font-size: 25px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#firstly{
+    width: 750px;
+    margin-bottom: 4em;
+    text-align: center;
+
+}
+
+.name2{
+    font-size: 25px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width: 750px;
+    height: 400px;
+}
+#secondly{
+    width: 750px;
+    text-align: center;
+
+}
+footer{
+    
+    line-height: 8em;
+    text-align: center;
+    margin-right: 16em;
+    padding-top: 7em;
 }
