@@ -1,0 +1,11 @@
+.kutu{
+  border: solid red 2px;
+}
+
+body{
+  background: yellow;
+}
+
+p{
+  font-family: 'Indie Flower', cursive;
+}
