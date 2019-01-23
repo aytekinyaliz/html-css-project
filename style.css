@@ -1,25 +1,114 @@
-body{
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+   
+    
+}
+header{
+    background-color: cadetblue;
+}
+
+
+.energy{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#zero{
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.articles{
+    
+    flex:3;
+    padding: 40px;
+    
+}
+.sidebar{
+    
+    flex:1;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: antiquewhite;
+    
+    
+}
+.row{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    
+
+}
+.cell{
+    flex:1;
+    /* border: 2px solid red; */
+
+}
+img{
+    height: 150px;
+    width: 300px;
+    
+
+}
+#secondly{
+    width: 25em;
+    height:25em;
+    font-size: 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media screen and  (max-width:600px){
+    .wrapper{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+/* body{
     background-color: rgb(146, 199, 199);
-padding-left: 18em;
+padding-left: 3em;
 padding-top: 4em;
 }
 #zero{
     width: 720px;
     margin-bottom:6em;
 }
-
-.name1{
-    font-size: 25px;
-    color:black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+main{
+    border: 2px  solid red;
+    border-width: 50em;
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+    column-gap: 15px;
+    row-gap: 20px;
+    max-width: 60%; 
+   
+  
 }
 
-#firstly{
-    width: 750px;
-    margin-bottom: 4em;
-    text-align: center;
-
+.first{
+    border: solid yellow 2px;
 }
+
+
 
 .name2{
     font-size: 25px;
@@ -28,14 +117,17 @@ padding-top: 4em;
 }
 
 img{
-    width: 750px;
-    height: 400px;
+    width: 250px;
+    height: 125px;
+    float: left;
 }
-#secondly{
+
+#secondly {
     width: 750px;
-    text-align: center;
+    text-align:center;
 
 }
+
 footer{
     
     line-height: 8em;
@@ -43,3 +135,8 @@ footer{
     margin-right: 16em;
     padding-top: 7em;
 }
+@media screen and (min-width: 900px) {
+    body {
+      background: moccasin;
+    }
+} */
